@@ -56,3 +56,13 @@ button {
   border: none;
   font-weight: 900;
 }
+
+.right-panel {
+  margin-left: 50px;
+}
+
+.top-right-content,
+.form-content,
+.bottom-right-conent {
+  max-width: 80%;
+}

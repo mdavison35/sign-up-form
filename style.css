@@ -64,6 +64,27 @@ button {
 
 .form-content {
   flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  font-family: Verdana, sans-serif;
+}
+
+.form-content h2 {
+  flex: 0;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+form div {
+  padding-top: 10px;
 }
 
 .top-right-content,
@@ -86,4 +107,27 @@ button {
 
 .top-right-content div h2 {
   padding: 5px;
+}
+
+.form-container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-column {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-right: 75px;
+  font-size: 10px;
+  color: darkgreen;
+  font-weight: 600;
+}
+
+input {
+  width: 250px;
+  margin-bottom: 30px;
+  line-height: 1.5;
 }

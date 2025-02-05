@@ -57,14 +57,34 @@ button {
   font-weight: 900;
 }
 
-.top-right-content,
-.form-content,
-.bottom-right-content {
-  max-width: 80%;
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form-content {
+  flex: 1.2;
 }
 
 .top-right-content,
 .bottom-right-content {
+  flex: 1.5;
   background-color: lightgrey;
   padding-left: 50px;
+}
+
+.top-right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top-right-content div {
+  max-width: 80%;
+  padding-bottom: 30px;
+}
+
+.top-right-content div h2 {
+  padding: 5px;
 }

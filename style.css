@@ -57,12 +57,14 @@ button {
   font-weight: 900;
 }
 
-.right-panel {
-  margin-left: 50px;
+.top-right-content,
+.form-content,
+.bottom-right-content {
+  max-width: 80%;
 }
 
 .top-right-content,
-.form-content,
-.bottom-right-conent {
-  max-width: 80%;
+.bottom-right-content {
+  background-color: lightgrey;
+  padding-left: 50px;
 }
